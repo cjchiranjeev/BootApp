@@ -1,0 +1,5 @@
+org\activiti\cloud\connector\impl\UIPathTransaction.class
+org\activiti\cloud\connector\UIPathCloudConnectorApp.class
+org\activiti\cloud\connector\impl\UIPathConnection.class
+org\activiti\cloud\connector\impl\UIPathConnectorChannels.class
+org\activiti\cloud\connector\impl\UIPathConnector.class

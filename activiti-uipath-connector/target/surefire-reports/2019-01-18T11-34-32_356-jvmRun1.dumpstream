@@ -1,0 +1,334 @@
+# Created at 2019-01-18T11:34:45.187
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-01-18T11:34:45.337
+Unexpected IOException with stream: 2019-01-18 11:34:45.336  INFO 162148 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:34:47.378
+Unexpected IOException with stream: 2019-01-18 11:34:47.376  INFO 162148 --- [           main] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'UIPathConnector.runtimeCmdProducer' has 1 subscriber(s).
+
+
+# Created at 2019-01-18T11:34:47.426
+Unexpected IOException with stream: 2019-01-18 11:34:47.424  INFO 162148 --- [           main] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: UIPathConnector2.UIPathConnector, bound to: UIPathConnector2
+
+
+# Created at 2019-01-18T11:34:47.428
+Unexpected IOException with stream: 2019-01-18 11:34:47.427  INFO 162148 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:34:49.442
+Unexpected IOException with stream: 2019-01-18 11:34:49.441  INFO 162148 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:34:51.450
+Unexpected IOException with stream: 2019-01-18 11:34:51.449  INFO 162148 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:34:53.501
+Unexpected IOException with stream: 2019-01-18 11:34:53.500  INFO 162148 --- [           main] o.s.c.stream.binder.BinderErrorChannel   : Channel 'UIPathConnector.UIPathConnector2.UIPathConnector.errors' has 1 subscriber(s).
+
+
+# Created at 2019-01-18T11:34:53.504
+Unexpected IOException with stream: 2019-01-18 11:34:53.503  INFO 162148 --- [           main] o.s.c.stream.binder.BinderErrorChannel   : Channel 'UIPathConnector.UIPathConnector2.UIPathConnector.errors' has 2 subscriber(s).
+
+
+# Created at 2019-01-18T11:34:53.515
+Unexpected IOException with stream: 2019-01-18 11:34:53.515  INFO 162148 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:34:55.529
+Unexpected IOException with stream: 2019-01-18 11:34:55.528  INFO 162148 --- [           main] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start
+
+
+# Created at 2019-01-18T11:34:55.550
+Unexpected IOException with stream: 2019-01-18 11:34:55.550  INFO 162148 --- [PathConnector-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:34:57.555
+Unexpected IOException with stream: 2019-01-18 11:34:57.554  INFO 162148 --- [           main] o.s.i.a.i.AmqpInboundChannelAdapter      : started inbound.UIPathConnector2.UIPathConnector
+
+
+# Created at 2019-01-18T11:34:57.610
+Unexpected IOException with stream: 2019-01-18 11:34:57.610  INFO 162148 --- [           main] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: UIPathConnector1.UIPathConnector, bound to: UIPathConnector1
+
+
+# Created at 2019-01-18T11:34:57.612
+Unexpected IOException with stream: 2019-01-18 11:34:57.610  INFO 162148 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:34:59.614
+Unexpected IOException with stream: 2019-01-18 11:34:59.613  INFO 162148 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:35:01.616
+Unexpected IOException with stream: 2019-01-18 11:35:01.615  INFO 162148 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:35:02.555
+Unexpected IOException with stream: 2019-01-18 11:35:02.554  WARN 162148 --- [PathConnector-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+
+
+# Created at 2019-01-18T11:35:02.563
+Unexpected IOException with stream: 2019-01-18 11:35:02.562  INFO 162148 --- [PathConnector-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@11f23038: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+
+
+# Created at 2019-01-18T11:35:03.638
+Unexpected IOException with stream: 2019-01-18 11:35:03.628  INFO 162148 --- [PathConnector-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:35:03.640
+Unexpected IOException with stream: 2019-01-18 11:35:03.636  INFO 162148 --- [           main] o.s.c.stream.binder.BinderErrorChannel   : Channel 'UIPathConnector.UIPathConnector1.UIPathConnector.errors' has 1 subscriber(s).
+
+
+# Created at 2019-01-18T11:35:03.641
+Unexpected IOException with stream: 2019-01-18 11:35:03.640  INFO 162148 --- [           main] o.s.c.stream.binder.BinderErrorChannel   : Channel 'UIPathConnector.UIPathConnector1.UIPathConnector.errors' has 2 subscriber(s).
+
+
+# Created at 2019-01-18T11:35:05.650
+Unexpected IOException with stream: 2019-01-18 11:35:05.649  INFO 162148 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:35:07.653
+Unexpected IOException with stream: 2019-01-18 11:35:07.652  INFO 162148 --- [           main] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start
+
+
+# Created at 2019-01-18T11:35:07.655
+Unexpected IOException with stream: 2019-01-18 11:35:07.654  INFO 162148 --- [PathConnector-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:35:09.654
+Unexpected IOException with stream: 2019-01-18 11:35:09.653  INFO 162148 --- [           main] o.s.i.a.i.AmqpInboundChannelAdapter      : started inbound.UIPathConnector1.UIPathConnector
+
+
+# Created at 2019-01-18T11:35:09.693
+Unexpected IOException with stream: 2019-01-18 11:35:09.692  INFO 162148 --- [           main] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: runtimeCmdResults.anonymous.c_KbQxh2So-LebdK-pI61A, bound to: runtimeCmdResults
+
+
+# Created at 2019-01-18T11:35:09.693
+Unexpected IOException with stream: 2019-01-18 11:35:09.693  INFO 162148 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:35:10.650
+Unexpected IOException with stream: 2019-01-18 11:35:10.649  WARN 162148 --- [PathConnector-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+
+
+# Created at 2019-01-18T11:35:10.651
+Unexpected IOException with stream: 2019-01-18 11:35:10.650  INFO 162148 --- [PathConnector-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@d703d02: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+
+
+# Created at 2019-01-18T11:35:11.706
+Unexpected IOException with stream: 2019-01-18 11:35:11.705  INFO 162148 --- [PathConnector-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:35:13.719
+Unexpected IOException with stream: 2019-01-18 11:35:13.718  INFO 162148 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:35:14.655
+Unexpected IOException with stream: 2019-01-18 11:35:14.654  WARN 162148 --- [PathConnector-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+
+
+# Created at 2019-01-18T11:35:14.656
+Unexpected IOException with stream: 2019-01-18 11:35:14.656  INFO 162148 --- [PathConnector-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@4ce25e47: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+
+
+# Created at 2019-01-18T11:35:15.742
+Unexpected IOException with stream: 2019-01-18 11:35:15.741  INFO 162148 --- [PathConnector-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:35:17.754
+Unexpected IOException with stream: 2019-01-18 11:35:17.753  INFO 162148 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:35:18.720
+Unexpected IOException with stream: 2019-01-18 11:35:18.718  WARN 162148 --- [PathConnector-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+
+
+# Created at 2019-01-18T11:35:18.721
+Unexpected IOException with stream: 2019-01-18 11:35:18.720  INFO 162148 --- [PathConnector-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@37f24da8: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+
+
+# Created at 2019-01-18T11:35:19.756
+Unexpected IOException with stream: 2019-01-18 11:35:19.755  INFO 162148 --- [PathConnector-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:35:19.761
+Unexpected IOException with stream: 2019-01-18 11:35:19.760  INFO 162148 --- [           main] o.s.c.stream.binder.BinderErrorChannel   : Channel 'UIPathConnector.runtimeCmdResults.anonymous.c_KbQxh2So-LebdK-pI61A.errors' has 1 subscriber(s).
+
+
+# Created at 2019-01-18T11:35:19.762
+Unexpected IOException with stream: 2019-01-18 11:35:19.761  INFO 162148 --- [           main] o.s.c.stream.binder.BinderErrorChannel   : Channel 'UIPathConnector.runtimeCmdResults.anonymous.c_KbQxh2So-LebdK-pI61A.errors' has 2 subscriber(s).
+
+
+# Created at 2019-01-18T11:35:21.761
+Unexpected IOException with stream: 2019-01-18 11:35:21.760  INFO 162148 --- [           main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:35:22.755
+Unexpected IOException with stream: 2019-01-18 11:35:22.754  WARN 162148 --- [PathConnector-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+
+
+# Created at 2019-01-18T11:35:22.757
+Unexpected IOException with stream: 2019-01-18 11:35:22.756  INFO 162148 --- [PathConnector-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@53044e7f: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+
+
+# Created at 2019-01-18T11:35:23.764
+Unexpected IOException with stream: 2019-01-18 11:35:23.763  INFO 162148 --- [           main] o.s.a.r.l.SimpleMessageListenerContainer : Broker not available; cannot force queue declarations during start
+
+
+# Created at 2019-01-18T11:35:23.765
+Unexpected IOException with stream: 2019-01-18 11:35:23.763  INFO 162148 --- [PathConnector-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:35:25.768
+Unexpected IOException with stream: 2019-01-18 11:35:25.767  INFO 162148 --- [o-LebdK-pI61A-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:35:26.761
+Unexpected IOException with stream: 2019-01-18 11:35:26.760  WARN 162148 --- [PathConnector-4] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+
+
+# Created at 2019-01-18T11:35:26.762
+Unexpected IOException with stream: 2019-01-18 11:35:26.761  INFO 162148 --- [PathConnector-4] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@2c355dc8: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+
+
+# Created at 2019-01-18T11:35:27.770
+Unexpected IOException with stream: 2019-01-18 11:35:27.769  INFO 162148 --- [           main] o.s.i.a.i.AmqpInboundChannelAdapter      : started inbound.runtimeCmdResults.anonymous.c_KbQxh2So-LebdK-pI61A
+
+
+# Created at 2019-01-18T11:35:27.771
+Unexpected IOException with stream: 2019-01-18 11:35:27.769  INFO 162148 --- [PathConnector-5] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:35:27.826
+Unexpected IOException with stream: 2019-01-18 11:35:27.822  INFO 162148 --- [           main] o.a.c.c.u.test.UIPathConnectorTests      : Started UIPathConnectorTests in 50.658 seconds (JVM running for 51.788)
+
+
+# Created at 2019-01-18T11:35:27.858
+Unexpected IOException: 5,1,org.activiti.cloud.connector.uipathconnector.test.UIPathConnectorTests,testUIPathConnectorSuccess(org.activiti.cloud.connector.uipathconnector.test.UIPathConnectorTests),null,null,null
+
+
+# Created at 2019-01-18T11:35:28.078
+Unexpected IOException with stream: 2019-01-18 11:35:28.077  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnector     : >> UIPath Cloud Connector: uipathConnectorConsumer2
+
+
+# Created at 2019-01-18T11:35:28.078
+Unexpected IOException with stream: 2019-01-18 11:35:28.078  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnector     : >> ProcessName - BPAUITestProcess : ProcessInstanceId - null
+
+
+# Created at 2019-01-18T11:35:28.078
+Unexpected IOException with stream: 2019-01-18 11:35:28.078  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnector     : >> Input Variables - {"in_certificateNo":"NHE-OSCAO6-OO13-52","in_vehicleNo": "TS08 AG 1458ds","in_LicenseNo": "AP5675QY","inWebUrl":"http://172.16.0.237:8080/policy/policyform.html"}
+
+
+# Created at 2019-01-18T11:35:28.080
+Unexpected IOException with stream: 2019-01-18 11:35:28.079  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnection    : >> Get Authentication Token
+
+
+# Created at 2019-01-18T11:35:30.301
+Unexpected IOException with stream: 2019-01-18 11:35:30.301  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnection    : Response Code : 200 OK: getAuthentication Response :  
+
+
+# Created at 2019-01-18T11:35:30.306
+Unexpected IOException with stream: 2019-01-18 11:35:30.305  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnection    : Get Authentication Token -- uhT5FNW-lzelX_dLWTMqvgazErDJggaLidPGi46eo0AguQkbBVZvMI8wcwUewo5xaVEEAY5G5-8pW_d30Q0AmogqGplaxhBqvzS2vMRrK6IYkwVAW3YGJqLuADItmtic9hH3NWqX8_1vF85pjeH9pfMQDrARZP6psSK1dq6QFRXFJRVjcymlrdBmLYTXN5OBNPsYzzYx5nceLmYMUI4zeJj2nJ2DbYMIjWVJeJqY26uCqkaWxpPRXE_36lgBD4-q7DfUNnGhpnDP26vdpWEUizNpqZuvhod7nNkqTEk88-NDiN4R_kiKbNzVqym3csVBrm4vVrdDFhALcCoC_5DYSi5IJqx_Tkr2JtT5Bcqn6wihKlDTv3HAwUfUfm91JcF40spH8pW84T2LfqPmlAdwyNG69QSYekYLmeS8u1A3f0BVMlXlbu_WjKWJT9cuFMqt4xa1jlYwuX-Y6MJW-xIopPVAK1wYq28O4sP3NBENVHsftwUwn1IgloLeViOIHwBax7TqD-o9amr8rJPh0IWNvA
+
+
+# Created at 2019-01-18T11:35:30.306
+Unexpected IOException with stream: 2019-01-18 11:35:30.306  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnection    : >> Get Release Key
+
+
+# Created at 2019-01-18T11:35:30.307
+Unexpected IOException with stream: 2019-01-18 11:35:30.306  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnection    : authToken : uhT5FNW-lzelX_dLWTMqvgazErDJggaLidPGi46eo0AguQkbBVZvMI8wcwUewo5xaVEEAY5G5-8pW_d30Q0AmogqGplaxhBqvzS2vMRrK6IYkwVAW3YGJqLuADItmtic9hH3NWqX8_1vF85pjeH9pfMQDrARZP6psSK1dq6QFRXFJRVjcymlrdBmLYTXN5OBNPsYzzYx5nceLmYMUI4zeJj2nJ2DbYMIjWVJeJqY26uCqkaWxpPRXE_36lgBD4-q7DfUNnGhpnDP26vdpWEUizNpqZuvhod7nNkqTEk88-NDiN4R_kiKbNzVqym3csVBrm4vVrdDFhALcCoC_5DYSi5IJqx_Tkr2JtT5Bcqn6wihKlDTv3HAwUfUfm91JcF40spH8pW84T2LfqPmlAdwyNG69QSYekYLmeS8u1A3f0BVMlXlbu_WjKWJT9cuFMqt4xa1jlYwuX-Y6MJW-xIopPVAK1wYq28O4sP3NBENVHsftwUwn1IgloLeViOIHwBax7TqD-o9amr8rJPh0IWNvA
+
+
+# Created at 2019-01-18T11:35:30.780
+Unexpected IOException with stream: 2019-01-18 11:35:30.779  WARN 162148 --- [PathConnector-3] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+
+
+# Created at 2019-01-18T11:35:30.781
+Unexpected IOException with stream: 2019-01-18 11:35:30.780  INFO 162148 --- [PathConnector-3] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@2056816f: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+
+
+# Created at 2019-01-18T11:35:30.783
+Unexpected IOException with stream: 2019-01-18 11:35:30.783  INFO 162148 --- [PathConnector-4] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:35:30.789
+Unexpected IOException with stream: 2019-01-18 11:35:30.787  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnection    : Response Code : 200 OK: getReleaseKey Response :  {"@odata.context":"https://platform.uipath.com/odata/$metadata#Releases","@odata.count":6,"value":[{"Key":"a66473ee-5666-45de-9378-8b67de6e43d7","ProcessKey":"Extract_loan_rates","ProcessVersion":"1.0.6904.33718","IsLatestVersion":false,"IsProcessDeleted":false,"Description":null,"Name":"Extract_loan_rates_NORTHWESTRPA","EnvironmentId":36688,"EnvironmentName":"NORTHWESTRPA","InputArguments":"{}","Id":48388,"Arguments":{"Input":"[{\"name\":\"IHSFilePath\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":true},{\"name\":\"FHLBFilePath\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":true},{\"name\":\"extractedLoanRates\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":false}]","Output":"[{\"name\":\"outputStr\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":false}]"}},{"Key":"1182463b-41c9-4b5d-9146-468029bc469d","ProcessKey":"Generate_Daily_Survey_Report","ProcessVersion":"1.0.6904.33885","IsLatestVersion":false,"IsProcessDeleted":false,"Description":null,"Name":"Generate_Daily_Survey_Report_NORTHWESTRPA","EnvironmentId":36688,"EnvironmentName":"NORTHWESTRPA","InputArguments":"{}","Id":48407,"Arguments":{"Input":"[{\"name\":\"inputStr\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":true}]","Output":"[{\"name\":\"outputStr\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":false}]"}},{"Key":"bfafded9-3c3d-482a-997e-f842b5abc7ea","ProcessKey":"Update_CI_Or_CRE","ProcessVersion":"1.0.6904.32571","IsLatestVersion":false,"IsProcessDeleted":false,"Description":null,"Name":"Update_CI_Or_CRE_NORTHWESTRPA","EnvironmentId":36688,"EnvironmentName":"NORTHWESTRPA","InputArguments":"{}","Id":48411,"Arguments":{"Input":"[{\"name\":\"inputStr\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":true}]","Output":null}},{"Key":"b9adf8ba-ec59-482d-84b8-038d0ebb7f76","ProcessKey":"Update_Signature","ProcessVersion":"1.0.6904.33860","IsLatestVersion":false,"IsProcessDeleted":false,"Description":null,"Name":"Update_Signature_NORTHWESTRPA","EnvironmentId":36688,"EnvironmentName":"NORTHWESTRPA","InputArguments":"{}","Id":48413,"Arguments":{"Input":"[{\"name\":\"outputStr\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":false},{\"name\":\"inputStr\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":true}]","Output":null}},{"Key":"996e5d58-dfcc-4390-adb7-aa26b683d4e5","ProcessKey":"BPATestProcess","ProcessVersion":"1.0.6956.26675","IsLatestVersion":false,"IsProcessDeleted":false,"Description":"","Name":"BPATestProcess_NORTHWESTRPA","EnvironmentId":36688,"EnvironmentName":"NORTHWESTRPA","InputArguments":null,"Id":62590,"Arguments":{"Input":"[{\"name\":\"in_certificateNo\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":true}]","Output":"[{\"name\":\"certificateNo\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":false},{\"name\":\"result\",\"type\":\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":false},{\"name\":\"out_date_of_Expiry\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":false},{\"name\":\"uipathProcessException\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":false}]"}},{"Key":"f6b7d05f-0064-4678-8abf-1d0bd3e6498c","ProcessKey":"BPAUITestProcess","ProcessVersion":"1.0.6956.26416","IsLatestVersion":false,"IsProcessDeleted":false,"Description":"","Name":"BPAUITestProcess_Ankith-Dev","EnvironmentId":15007,"EnvironmentName":"Ankith-Dev","InputArguments":null,"Id":64631,"Arguments":{"Input":"[{\"name\":\"inWebUrl\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":true},{\"name\":\"in_certificateNo\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":true},{\"name\":\"in_vehicleNo\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":true},{\"name\":\"in_LicenseNo\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":true}]","Output":"[{\"name\":\"uipathProcessException\",\"type\":\"System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\",\"required\":false,\"hasDefault\":false}]"}}]}
+
+
+# Created at 2019-01-18T11:35:30.794
+Unexpected IOException with stream: 2019-01-18 11:35:30.794  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnection    : Release Key : f6b7d05f-0064-4678-8abf-1d0bd3e6498c
+
+
+# Created at 2019-01-18T11:35:30.795
+Unexpected IOException with stream: 2019-01-18 11:35:30.795  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnection    : >> Get Robot ID
+
+
+# Created at 2019-01-18T11:35:30.796
+Unexpected IOException with stream: 2019-01-18 11:35:30.796  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnection    : >> Identified Robot Name - ANKITHPCROBOT
+
+
+# Created at 2019-01-18T11:35:31.228
+Unexpected IOException with stream: 2019-01-18 11:35:31.227  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnection    : Response Code : 200 OK: getRobotId Response :  {"@odata.context":"https://platform.uipath.com/odata/$metadata#Robots","@odata.count":2,"value":[{"LicenseKey":null,"MachineName":"TS-PC","MachineId":16420,"Name":"NORTHWESTRPA","Username":"tekrains\\chiranjeev.k","Description":"172.16.0.122","Version":"18.4.0.6","Type":"Development","HostingType":"Standard","Password":null,"CredentialType":null,"RobotEnvironments":"NORTHWESTRPA","Id":29042,"ExecutionSettings":null},{"LicenseKey":null,"MachineName":"Ankith-PC","MachineId":78118,"Name":"ANKITHPCROBOT","Username":"tekrains\\ankith.k","Description":null,"Version":"18.4.2.0","Type":"Development","HostingType":"Standard","Password":null,"CredentialType":null,"RobotEnvironments":"Ankith-Dev","Id":92436,"ExecutionSettings":null}]}
+
+
+# Created at 2019-01-18T11:35:31.233
+Unexpected IOException with stream: 2
+
+# Created at 2019-01-18T11:35:31.233
+Unexpected IOException with stream: 
+
+
+# Created at 2019-01-18T11:35:31.235
+Unexpected IOException with stream: 2019-01-18 11:35:31.234  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnection    : Robot Name : ANKITHPCROBOT
+Robot Id : 92436
+
+
+
+# Created at 2019-01-18T11:35:31.236
+Unexpected IOException with stream: 2019-01-18 11:35:31.235  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnection    : >> Start RPA Job  - {"startInfo":{"ReleaseKey":"f6b7d05f-0064-4678-8abf-1d0bd3e6498c","RobotIds":[92436],"NoOfRobots":"0","Strategy":"Specific","InputArguments":"{\"in_certificateNo\":\"NHE-OSCAO6-OO13-52\",\"in_vehicleNo\": \"TS08 AG 1458ds\",\"in_LicenseNo\": \"AP5675QY\",\"inWebUrl\":\"http://172.16.0.237:8080/policy/policyform.html\"}"}}
+
+
+# Created at 2019-01-18T11:35:31.760
+Unexpected IOException with stream: 2019-01-18 11:35:31.759  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnection    : Response Code : 201 CREATED: triggerRPAProcess Response :  
+
+
+# Created at 2019-01-18T11:35:31.762
+Unexpected IOException with stream: 2019-01-18 11:35:31.761  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnection    : start job {"@odata.context":"https://platform.uipath.com/odata/$metadata#Jobs","value":[{"Key":"0de69882-dd5e-4ed7-af76-4d1438494141","StartTime":null,"EndTime":null,"State":"Pending","Source":"Manual","SourceType":"Manual","BatchExecutionKey":"7650475b-b8b5-47e9-9836-009605e03ec8","Info":null,"CreationTime":"2019-01-18T06:05:21.5946369Z","StartingScheduleId":null,"ReleaseName":"BPAUITestProcess_Ankith-Dev","Type":"Unattended","InputArguments":"{\"in_certificateNo\":\"NHE-OSCAO6-OO13-52\",\"in_vehicleNo\":\"TS08 AG 1458ds\",\"in_LicenseNo\":\"AP5675QY\",\"inWebUrl\":\"http://172.16.0.237:8080/policy/policyform.html\"}","OutputArguments":null,"HostMachineName":null,"Id":4815366}]}
+
+
+# Created at 2019-01-18T11:35:31.764
+Unexpected IOException with stream: 2019-01-18 11:35:31.763  INFO 162148 --- [           main] o.a.c.connector.impl.UIPathConnection    : JOB ID is 4815366
+
+
+# Created at 2019-01-18T11:35:32.777
+Unexpected IOException with stream: 2019-01-18 11:35:32.776  WARN 162148 --- [o-LebdK-pI61A-1] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+
+
+# Created at 2019-01-18T11:35:32.778
+Unexpected IOException with stream: 2019-01-18 11:35:32.777  INFO 162148 --- [o-LebdK-pI61A-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@285a4fe3: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+
+
+# Created at 2019-01-18T11:35:32.782
+Unexpected IOException with stream: 2019-01-18 11:35:32.781  INFO 162148 --- [o-LebdK-pI61A-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
+# Created at 2019-01-18T11:35:34.876
+Unexpected IOException with stream: 2019-01-18 11:35:34.875  WARN 162148 --- [PathConnector-5] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+
+
+# Created at 2019-01-18T11:35:34.877
+Unexpected IOException with stream: 2019-01-18 11:35:34.877  INFO 162148 --- [PathConnector-5] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@46cccdaf: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+
+
+# Created at 2019-01-18T11:35:34.880
+Unexpected IOException with stream: 2019-01-18 11:35:34.879  INFO 162148 --- [PathConnector-6] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+
+
